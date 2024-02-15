@@ -1,0 +1,567 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    background-color: white;
+  
+    width: 100%;
+    height: 630px;
+    /* overflow: hidden; */
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url(bg-1.jpg);
+    
+    background-position-x: -5px;
+    background-size: contain;
+ 
+}
+
+
+
+
+.menu-bar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+    margin-right: -30px;
+  }
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+  }
+  .menu-bar ul li a:hover {
+    background-color:  #deb887;
+   ;
+color: white;
+    border-radius: 5px;
+  
+   
+    
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+    background-color: white;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu-1 {
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color:#fff;
+  }
+
+  .intro-heading{
+    text-align: center;
+    color:white;
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2.5rem;
+  }
+
+  .intro-info{
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2.5rem;
+  }
+.reserv{
+    display: inline-block;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    border-radius: 4px;
+    padding: 15px 0;
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid burlywood; */
+  
+}
+
+.reserv a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 56px;
+    border:2px solid #deb887;
+}
+
+.reserv a:hover{
+
+    background-color: burlywood ;
+}
+
+.story-section{
+
+    width: 100%;
+  
+   
+
+}
+.img-sec img{
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+}
+
+
+.one{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 4%;
+   text-align: center;
+   flex-direction: row;
+}
+
+.story .heading{
+    font-size: 32px;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.story .subheading{
+    font-size: 1rem;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.story .story-para{
+    font-size: 1rem;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.story .reser a{
+display: inline-block;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid burlywood;
+    border-radius: 4px;
+    padding:10px 25px 10px 25px;
+    margin-top: 2.5rem;
+    font-size: 1.1re;
+    text-decoration: none;
+    color: black;
+}
+.story .reser a:hover{
+    background-color: #deb887;
+}
+
+.quote-sec{
+
+    height: 19rem;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url(Bg_5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    text-align: center;
+}
+
+.quote{
+    color: #fff;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6rem;
+}
+.credit{
+    color: #fff;
+    text-align: center;
+    padding-left: 20rem;
+    font-size: 1.2rem;
+    margin-bottom: 5rem 
+
+}
+
+.menu-sec{
+    text-align: center;
+    padding: 2rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.menu-sec .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.menu-sec .subheading{
+
+margin-bottom: 3rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-nav {
+  width: 40%;
+  margin-inline: auto;
+}
+
+.menu-border {
+  border: 2px solid #e4e4e4;
+  border-radius: 4px;
+  padding: 0 2.5rem;
+  margin: auto;
+  margin-inline: auto;
+  display: flex;
+}
+
+
+  .menu-border ul {
+    margin-inline: auto;
+}
+.menu-border ul li{
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+
+
+.menu-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f5f5f5;
+  color: #000;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.3rem;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.menu-border a{
+  text-decoration: none;
+  color:black;
+
+}
+.menu-border {
+  list-style-type: none;
+}
+.menu-link:hover{
+  background-color: #deb887;
+  border-radius: 4px;
+}
+.menu-link a{
+  padding: 10px 21px;
+}
+.menu-border ul{
+  padding: 0px 40px;
+}
+.menu-items {
+  padding: 1.5% 6%;
+}
+.drink1 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_1.jpg);
+}
+.text {
+  padding: 0 0.8rem 0 0.6rem;
+  color: #fff;
+}
+.item-heading {
+  font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding: 2rem 1rem 1rem 2rem;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.item-passege {
+  border-bottom: 2px dotted black;
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0.5rem 2rem 2rem 2rem;
+  padding-bottom: 2.5rem;
+  text-align: left;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.price {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 0.5rem 2rem 1rem 0.8rem;
+}
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.drink2 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_2.jpg);
+}
+.items {
+  display: inline-block;
+  margin: 1.7rem 1rem;
+  background-size: cover;
+}
+.drink3{
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Drinks_3.jpg);
+}
+.lunch1 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_1.jpg);
+}
+.lunch2 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_2.jpg);
+}
+.lunch3 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(Lunch_3.jpg);
+}
+.dinner1 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(SDinner_1.jpg);
+}
+.dinner2 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(SDinner_2.jpg);
+}
+
+.dinner3 {
+  background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url(sDinner_3.jpg);
+}
+
+.gallery-sec{
+  text-align: center;
+}
+.gallery-sec .heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 1rem;
+  font-size: 2rem;
+}
+.gallery-sec .subheading {
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery {
+  padding: 1.5% 6%;
+}
+.gallery .img {
+  height: 250px;
+  width: 350px;
+  margin: 1.5rem 1rem;
+}
+.gallery .img:hover {
+cursor: pointer;
+transform: scale(1.1);
+transition-duration: 0.1s;
+transition-timing-function: 0.1s;
+transition-delay: 0.3s;
+
+
+}
+.customer-sec {
+  text-align: center;
+  padding: 2.5rem 2rem 3rem 2rem;
+}
+.customer-sec .img {
+  width: 10%;
+  border-radius: 100%;
+  border: 1px solid #e4e4e4;
+  padding: 0.4rem;
+}
+.customer-sec .name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #deb887;
+}
+.customer-sec .subheading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.customer-sec .review {
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2rem;
+  line-height: 25px;
+}
+
+.contact-info {
+  clear: both;
+  overflow: hidden;
+  /* margin: auto; */
+/* width: 100vw; */
+  background-color: #d0a772;
+  color: #fff;
+  padding: 2px;
+  
+}
+.contact {
+  display: inline-block;
+  width: 32%;
+  padding: 2rem 0;
+  text-align: center;
+}
+.contact-info .fas {
+  font-weight: 900;
+  line-height: 1;
+  display: inline-block;
+  font-size: 2.5rem;
+    margin: 0 1.5rem;
+}
+.contact-details {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  text-align: left;
+}
+
+.footer {
+  display: inline-flex;
+  overflow: hidden;
+  height: 22rem;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../images/bg_footer.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+}
+
+.footer-elements {
+  max-height: 200px;
+  width: 20%;
+  margin: 1rem 2rem;
+  color: #fff;
+  margin-bottom: 10%;
+}
+.footer-heading {
+  border-bottom: 2px dotted rgba(207, 166, 113, 0.5);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-description {
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  line-height: 25px;
+}
+.email {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  font-size: 1rem;
+  line-height: 25px;
+  padding: 0.8rem;
+  width: 100%;
+  color: white;
+  
+}
+.subscribe {
+  background-color: #d0a772;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  line-height: 25px;
+  width: 100%;
+}
+.social {
+  margin-top: 2rem;
+}
+.copy-right {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+.social a {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+@media only screen and (max-width: 200px) {
+  .story-section .img {
+width: 100%;
+}
+}
